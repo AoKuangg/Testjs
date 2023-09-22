@@ -25,7 +25,7 @@ export const parEimpar = (num)=>{
 
 export const voltaje = (a,b)=>{
     let voltaje = a * b;
-    return Numbers(voltaje.toFixed(1));
+    return Number(voltaje.toFixed(1));
 };
 
 export const personaMayor = (personas) =>{

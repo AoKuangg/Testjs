@@ -23,12 +23,12 @@ describe("1. Validar si un estudiante aprobo o no una beca", () => {
 //Par O Impar
 describe("2. Validar si es par o impar y si es mayor o menor que 10", () => {
   test("Retorna par y mayor/menor que 10", () => {
-    expect(parEimpar(18)).toContain("El resultado es par y mayor a 10");
-    expect(parEimpar(6)).toContain("El resultado es par y menor a  10");
+    expect(parEimpar(18)).toContain("El numero es Par y es Mayor que 10");
+    expect(parEimpar(6)).toContain("El numero es Par y es Menor que 10");
   });
   it("Retorna que es impar y mayor/menor que 10", () => {
-    expect(parEimpar(15)).toContain("El resultado es impar y mayor a 10");
-    expect(parEimpar(9)).toContain("El resultado es impar y menor a  10");
+    expect(parEimpar(15)).toContain("El numero es Impar y es Mayor que 10");
+    expect(parEimpar(9)).toContain("El numero es Impar y es Menor que 10");
   });
 });
 
